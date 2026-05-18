@@ -1,0 +1,21 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="sans-serif" text-anchor="middle">
+    <!-- AI -->
+    <rect x="10" y="10" width="580" height="380" rx="15" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/>
+    <text x="300" y="40" font-size="20" font-weight="bold" fill="#0d47a1">Artificial Intelligence (AI)</text>
+    
+    <!-- ML -->
+    <rect x="40" y="60" width="520" height="310" rx="15" fill="#bbdefb" stroke="#1e88e5" stroke-width="2"/>
+    <text x="300" y="90" font-size="18" font-weight="bold" fill="#0d47a1">Machine Learning (ML)</text>
+    
+    <!-- DL -->
+    <rect x="70" y="110" width="460" height="240" rx="15" fill="#90caf9" stroke="#1e88e5" stroke-width="2"/>
+    <text x="300" y="140" font-size="16" font-weight="bold" fill="#0d47a1">Deep Learning (DL)</text>
+    
+    <!-- GenAI -->
+    <rect x="100" y="160" width="400" height="170" rx="15" fill="#64b5f6" stroke="#1e88e5" stroke-width="2"/>
+    <text x="300" y="210" font-size="16" font-weight="bold" fill="#000000">Generative AI (GenAI)</text>
+    <text x="300" y="240" font-size="14" fill="#000000">Creating new content (text, images, audio)</text>
+    <text x="300" y="270" font-size="14" fill="#000000">e.g. LLMs, Diffusion Models</text>
+  </g>
+</svg>
