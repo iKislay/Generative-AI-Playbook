@@ -1,7 +1,5 @@
 # Generative AI Playbook
 
-[![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=whykislay.amplify)
-
 A complete open-source journey from **beginner -> expert** in Generative AI.
 
 This repository is designed for people who want to go from **zero knowledge** to building production-grade AI systems.
