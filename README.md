@@ -1,116 +1,90 @@
-# Generative AI Playbook
+# Generative AI Playbook 🚀
 
-A complete open-source journey from **beginner -> expert** in Generative AI.
+A comprehensive repository for mastering Generative AI—from mathematical foundations to production-grade agentic systems.
 
-This repository is designed for people who want to go from **zero knowledge** to building production-grade AI systems.
-
-The goal is to master the entire GenAI stack:
-- **Foundations:** Math and Python for AI.
-- **Architectures:** Understanding Transformers and LLMs.
-- **Application:** Building RAG, Agents, and Prompt Engineering.
-- **Production:** Optimization, Evaluation, and LLMOps.
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/kislayy)
 
 ---
 
-# Recommended Learning Paths
+## 📖 Philosophy
+Most AI resources are either too theoretical (all math, no code) or too shallow (all APIs, no understanding). This playbook bridges that gap.
 
-Don't feel overwhelmed. Depending on your goal, you can follow different tracks:
+1.  **Understand the Math** (Foundations)
+2.  **Build the Architecture** (From Scratch)
+3.  **Implement the Pattern** (Tutorials)
+4.  **Optimize for Users** (Production)
+
+---
+
+## 🗺️ Recommended Learning Paths
 
 ### 🚀 The "Hacker" Path (Build Apps Fast)
 *Goal: Build functional AI applications as quickly as possible.*
-1. **Introduction to GenAI**
-2. **Applied GenAI** (Prompting & RAG)
-3. **Projects** (PDF Chat / Chatbot)
+1. **[Simple Conversational Agent](./02-all-tutorials/simple_conversational_agent.ipynb)**
+2. **[Simple Data Analysis Agent](./02-all-tutorials/simple_data_analysis_agent_notebook.ipynb)**
+3. **[Introduction to LangGraph](./02-all-tutorials/langgraph-tutorial.ipynb)**
 
 ### 🧠 The "Core Engineer" Path (The Deep Dive)
 *Goal: Understand the "Why" and build architectures from scratch.*
-1. **Foundations** (Math & Python)
-2. **Architectures** (Transformers & Attention)
-3. **Build from Scratch** (Transformer, GPT, Tokenizer)
-4. **Paper Summaries**
+1. **[Foundations](./00-foundations/)** (Math & Python)
+2. **[Attention from Scratch](./01-architectures/from-scratch/build-attention-from-scratch.ipynb)**
+3. **[Transformer Architecture](./01-architectures/from-scratch/build-transformer.ipynb)**
+4. **[Paper Summaries](./01-architectures/papers/)**
 
 ### 🛠️ The "Production" Path (LLMOps)
 *Goal: Deploy, evaluate, and optimize AI systems for real users.*
-1. **Production & LLMOps** (Cost, Caching, Quantization)
-2. **Evaluation** (Debugging Hallucinations)
-3. **Deployment** (Inference optimization)
+1. **[Production & LLMOps](./03-production-llmops/)** (Cost, Caching, Quantization)
+2. **[Evaluation](./03-production-llmops/evaluation.ipynb)**
+3. **[Hallucination Debugging](./03-production-llmops/hallucination-debugging.ipynb)**
 
 ---
 
-# Chapters
+## 🛠️ Implementation Registry
 
-## 00. Foundations
-- [Introduction to GenAI](./00-foundations/00-intro-to-genai.ipynb)
-- [Python for AI](./00-foundations/01-python-for-ai.ipynb)
-- [Linear Algebra](./00-foundations/02-linear-algebra.ipynb)
-- [Probability](./00-foundations/03-probability.ipynb)
-- [Statistics](./00-foundations/04-statistics.ipynb)
-- [Calculus](./00-foundations/05-calculus.ipynb)
-
-## 01. Architectures
-- [Attention Mechanism](./01-architectures/attention.ipynb)
-- Deep Learning & NLP Basics (Coming soon)
-- LLM Architecture (Coming soon)
-
-## 02. Applied GenAI
-- Prompt Engineering (Coming soon)
-- RAG (Coming soon)
-- AI Agents (Coming soon)
-
-## 03. Production & LLMOps
-- [LLM Cost Optimization](./03-production-llmops/llm-cost-optimization.ipynb)
-- [Hallucination Debugging](./03-production-llmops/hallucination-debugging.ipynb)
-- [Context Engineering](./03-production-llmops/context-engineering.ipynb)
-- [Prompt Versioning](./03-production-llmops/prompt-versioning.ipynb)
-- [Evaluation](./03-production-llmops/evaluation.ipynb)
-- [Caching Strategies](./03-production-llmops/caching.ipynb)
-- [GPU Inference](./03-production-llmops/gpu-inference.ipynb)
-- [Quantization](./03-production-llmops/quantization.ipynb)
+| Category | Tutorial Name | Framework | Key Features |
+| :--- | :--- | :--- | :--- |
+| 🌱 **Beginner** | [Simple Conversational Agent](./02-all-tutorials/simple_conversational_agent.ipynb) | LangChain | History management, Context-aware |
+| 🌱 **Beginner** | [Simple Data Analysis](./02-all-tutorials/simple_data_analysis_agent_notebook.ipynb) | LangChain | Natural language queries on CSVs |
+| 🔧 **Framework** | [Introduction to LangGraph](./02-all-tutorials/langgraph-tutorial.ipynb) | LangGraph | State management, Cyclic workflows |
+| 🎓 **Educational** | [ATLAS: Academic Task System](./02-all-tutorials/Academic_Task_Learning_Agent_LangGraph.ipynb) | LangGraph | Multi-agent academic planning |
+| 💼 **Business** | [Customer Support Agent](./02-all-tutorials/customer_support_agent_langgraph.ipynb) | LangGraph | Sentiment analysis, Routing |
+| 🎨 **Creative** | [GIF Animation Generator](./02-all-tutorials/gif_animation_generator_langgraph.ipynb) | LangGraph | Text-to-animation pipeline |
+| 📊 **Analysis** | [Self-Healing Codebase](./02-all-tutorials/self_healing_code.ipynb) | LangGraph | Automated error detection & fixes |
+| 🔍 **QA** | [EU Green Deal Bot](./02-all-tutorials/EU_Green_Compliance_FAQ_Bot.ipynb) | LangGraph | RAG-based regulatory compliance |
+| 🌟 **Advanced** | [Multi-Agent Collaboration](./02-all-tutorials/multi_agent_collaboration_system.ipynb) | LangChain | Research & Data teams working together |
 
 ---
 
-# Specialized Content
+## 📂 Repository Structure
 
-## Build from Scratch
-- [Attention from Scratch](./from-scratch/build-attention-from-scratch.ipynb)
-- [Tokenizer from Scratch](./from-scratch/build-tokenizer-from-scratch.ipynb)
-- [Transformer Architecture](./from-scratch/build-transformer.ipynb)
-- [GPT from Scratch](./from-scratch/build-gpt.ipynb)
-- [RAG from Scratch](./from-scratch/build-rag.ipynb)
-- [Vector DB from Scratch](./from-scratch/build-vector-db.ipynb)
-- [AI Agent from Scratch](./from-scratch/build-agent.ipynb)
+### [00. Foundations](./00-foundations/)
+The mathematical bedrock. Linear Algebra, Probability, and Calculus specifically for AI.
 
-## Paper Summaries & Implementations
-- [Attention is All You Need](./papers/attention-is-all-you-need.ipynb)
-- [GPT-3](./papers/gpt3.ipynb)
-- [InstructGPT](./papers/instructgpt.ipynb)
-- [RAG](./papers/rag-paper.ipynb)
-- [LoRA](./papers/lora.ipynb)
-- [Mamba](./papers/mamba.ipynb)
+### [01. Architectures](./01-architectures/)
+- **From Scratch:** Building GPT, Tokenizers, and Transformers with pure code.
+- **Papers:** Deep dives into *Attention Is All You Need*, *LoRA*, *Mamba*, and more.
 
-## Setup & Environment
-- [Environment Setup](./setup/environment.ipynb)
-- [Python Refresher](./setup/python-refresher.ipynb)
-- [GPU Setup](./setup/gpu-setup.ipynb)
+### [02. Agent Tutorials](./02-all-tutorials/)
+Practical, ready-to-use implementations of modern AI Agent patterns using LangGraph, CrewAI, and AutoGen.
+
+### [03. Production & LLMOps](./03-production-llmops/)
+The "Last Mile" of AI: Caching, Quantization, Evaluation, and Cost Optimization.
 
 ---
 
-# Projects
-
-- Chatbot
-- PDF Chat
-- Resume Analyzer
-- Multi-Agent Systems
+## 🛠️ Setup
+```bash
+git clone https://github.com/iKislay/Generative-AI-Playbook.git
+cd Generative-AI-Playbook
+pip install -r requirements.txt
+```
 
 ---
 
-# Credits
+## 🤝 Credits
+This project incorporates tutorials and patterns inspired by the excellent work in [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents).
 
 Created and maintained by **Kislay**.
-
-- X (Twitter): [x.com/whykislayy](https://x.com/whykislayy)
-- LinkedIn: [linkedin.com/in/kislayy](https://www.linkedin.com/in/kislayy)
-- YouTube: [youtube.com/@whykislay](https://www.youtube.com/@whykislay)
-- Portfolio: [forg.to/@kislay](https://forg.to/@kislay)
-
-Contributions are welcome.
+- X (Twitter): [@whykislayy](https://x.com/whykislayy)
+- LinkedIn: [kislayy](https://www.linkedin.com/in/kislayy)
