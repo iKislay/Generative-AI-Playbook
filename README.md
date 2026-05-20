@@ -76,6 +76,12 @@ Practical, ready-to-use implementations of modern AI Agent patterns.
 ### [03. Production & LLMOps](./03-production-llmops/)
 The "Last Mile" of AI: Caching, Quantization, Evaluation, and Cost Optimization.
 
+### [04. Security & Guardrails](./04-security-and-guardrails/)
+Protecting agents from attacks and ensuring safe behavior.
+- **Prompt Injection:** Understanding Direct and Indirect attacks.
+- **Guardrails:** Implementation of input/output filtering (Llama Guard).
+- **Secure Execution:** Running code in isolated sandboxes.
+
 ---
 
 ## 🛠️ Setup
