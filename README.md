@@ -29,29 +29,32 @@ Each topic contains:
 
 ---
 
-# Learning Path
+# Recommended Learning Paths
 
-Beginner
+Don't feel overwhelmed. Depending on your goal, you can follow different tracks:
 
-Python -> Math -> ML -> DL -> NLP
+### 🚀 The "Hacker" Path (Build Apps Fast)
+*Goal: Build functional AI applications as quickly as possible.*
+1. **Introduction to GenAI**
+2. **Prompt Engineering** (Coming soon)
+3. **RAG** (Basic Implementation)
+4. **Agents** (Using frameworks)
+5. **PDF Chat / Chatbot Projects**
 
-↓
+### 🧠 The "Core Engineer" Path (The Deep Dive)
+*Goal: Understand the "Why" and build architectures from scratch.*
+1. **Foundations** (Math & Python)
+2. **Deep Learning & NLP**
+3. **Transformers** (Attention Mechanism)
+4. **Build from Scratch** (Transformer, GPT, Tokenizer)
+5. **Paper Summaries**
 
-Intermediate
-
-Transformers -> LLMs -> Prompt Engineering
-
-↓
-
-Advanced
-
-RAG -> Agents -> Fine Tuning -> Evaluation
-
-↓
-
-Expert
-
-LLMOps -> Research -> Training -> Alignment
+### 🛠️ The "Production" Path (LLMOps)
+*Goal: Deploy, evaluate, and optimize AI systems for real users.*
+1. **Production AI** (Cost, Caching, Quantization)
+2. **Evaluation** (Debugging Hallucinations)
+3. **Safety & Alignment**
+4. **LLMOps** (Deployment & Versioning)
 
 ---
 
