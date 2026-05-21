@@ -95,8 +95,6 @@ pip install -r requirements.txt
 ---
 
 ## 🤝 Credits
-This project incorporates tutorials and patterns inspired by the excellent work in [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents).
-
 Created and maintained by **Kislay**.
 - X (Twitter): [@whykislayy](https://x.com/whykislayy)
 - LinkedIn: [kislayy](https://www.linkedin.com/in/kislayy)
